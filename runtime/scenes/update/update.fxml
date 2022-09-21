@@ -14,7 +14,7 @@
 
 <!-- DrLeonardo refactor -->
 
-<Pane fx:id="overlay" prefHeight="600.0" prefWidth="1024.0" styleClass="transparent, blur" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:id="overlay" prefHeight="600.0" prefWidth="1024.0" styleClass="transparent, blur" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <stylesheets>
       <URL value="@update.css" />
       <URL value="@../../styles/global.css" />

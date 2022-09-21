@@ -13,7 +13,7 @@
 
 <!-- DrLeonardo refactor -->
 
-<Pane fx:id="debugPane" prefHeight="600.0" prefWidth="1024.0" styleClass="transparent, blur" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:id="debugPane" prefHeight="600.0" prefWidth="1024.0" styleClass="transparent, blur" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <Pane id="biba" layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="1024.0">
       <children>
          <Text id="headingDialog" layoutX="251.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Режим отладки игрового клиента" />

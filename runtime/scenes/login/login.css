@@ -15,7 +15,7 @@ FluffyCuteOwO#6745 - DarkenGravitLauncherRuntime
 
 /* login.fxml */
 #backgroundimage{
-    -fx-background-image: url('../../images/minecraft-villager.gif');
+    -fx-background-image: url('../../images/background.gif');
     -fx-background-size: cover;
     -fx-background-radius: 8px;
 }

@@ -9,7 +9,8 @@
 
 <!-- DrLeonardo refactor -->
 
-<Pane fx:id="loginPane" prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.scene.text.TextFlow?>
+<Pane fx:id="loginPane" prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
      <Pane fx:id="layout" prefHeight="600.0" prefWidth="1024.0">
 
          <!-- Навбар -->
@@ -21,7 +22,12 @@
             <Pane id="controls" prefHeight="60.0" prefWidth="1024.0">
                <children>
                   <Pane id="logo" layoutX="439.0" layoutY="22.0" prefHeight="16.0" prefWidth="16.0" />
-                  <Label id="title" ellipsisString="162" layoutX="465.0" layoutY="20.0" lineSpacing="162.0" text="ICECREAM LAUNCHER" />
+                   <TextFlow layoutX="465.0" layoutY="20.0" lineSpacing="162.0">
+                       <children>
+                           <Label id="title" text="%runtime.scenes.login.logoName" />
+                           <Label id="title" text="%runtime.scenes.login.logoProduct" />
+                       </children>
+                   </TextFlow>
 
                    <!-- Кнопка закрыть -->
                    <Button id="exit" graphicTextGap="0.0" layoutX="994.0" layoutY="25.0" maxHeight="10.0" maxWidth="10.0" minHeight="10.0" minWidth="10.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="10.0" styleClass="icon-button">
@@ -46,8 +52,8 @@
             </Pane>
             <Pane id="loginbg" layoutX="342.0" layoutY="155.0" prefHeight="290.0" prefWidth="340.0">
                <children>
-                  <Label id="welcometext" alignment="CENTER" layoutY="85.0" prefHeight="35.0" prefWidth="340.0" text="Добро пожаловать!" />
-                  <Label id="selectauthtext" alignment="CENTER" layoutY="123.0" prefHeight="20.0" prefWidth="340.0" text="Выберите способ авторизации в лаунчере" textAlignment="CENTER" />
+                  <Label id="welcometext" alignment="CENTER" layoutY="85.0" prefHeight="35.0" prefWidth="340.0" text="%runtime.scenes.login.welcomeText" />
+                  <Label id="selectauthtext" alignment="CENTER" layoutY="123.0" prefHeight="20.0" prefWidth="340.0" text="%runtime.scenes.login.authChoosingText" textAlignment="CENTER" />
                </children>
             </Pane>
       
