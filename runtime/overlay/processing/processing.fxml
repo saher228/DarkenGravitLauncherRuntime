@@ -10,7 +10,7 @@
 
 <!-- DrLeonardo refactor -->
 
-<Pane fx:id="overlay" disable="true" opacity="0.0" prefHeight="500.0" prefWidth="900.0" visible="false" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:id="overlay" disable="true" opacity="0.0" prefHeight="500.0" prefWidth="900.0" visible="false" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
 
     <!-- Навбар -->
     <Pane id="header" disable="true" opacity="0.0" prefHeight="100.0" prefWidth="900.0" visible="false">

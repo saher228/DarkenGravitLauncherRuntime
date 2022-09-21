@@ -14,7 +14,7 @@
 
 <!-- DrLeonardo refactor -->
 
-<Pane prefHeight="600.0" prefWidth="1024.0" styleClass="transparent" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<Pane prefHeight="600.0" prefWidth="1024.0" styleClass="transparent" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <stylesheets>
       <URL value="@serverinfo.css" />
       <URL value="@../../styles/global.css" />
@@ -123,7 +123,7 @@
             </Pane>
             <ImageView id="avatar" fitHeight="20.0" fitWidth="20.0" layoutX="20.0" layoutY="558.0" smooth="false">
                <image>
-                  <Image url="@../../../../../../Desktop/IceCreamRuntime-main/runtime/images/icons/default.png" />
+                  <Image url="@../../images/icons/default.png" />
                </image>
             </ImageView>
             <Label id="money" layoutX="93.0" layoutY="50.0" prefHeight="20.0" prefWidth="282.0" text="100 МОНЕТ" visible="false">
