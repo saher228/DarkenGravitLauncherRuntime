@@ -1,6 +1,8 @@
 Немного обновы от SaHeR
 Открытый дизайн для GravitLauncher.
 
+**На данный момент только для 5.2**
+
 ![image](https://inzeworld.com/img/graphics/landing/hero-main.png)
 
 
